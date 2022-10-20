@@ -49,7 +49,9 @@ justify-content: space-between;
     color: #4E2096;
     
 }
-
+.botao button {
+    background-color: #F3EEE8;
+}
 .provisorio {
     display: none;
 }
@@ -84,7 +86,7 @@ justify-content: space-between;
         display: visible;
         transition: all ease 0.3s;
         border: none;
-        background-color: none;
+        background-color: #F3EEE8;
         cursor: pointer;
         visibility: visible;
         
