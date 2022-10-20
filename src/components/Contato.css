@@ -91,7 +91,6 @@
     border: solid 2px #371669;
     font: 800 1.5rem 'Poppins', sans-serif;
     transition: all ease 0.2s;
-    cursor: pointer;
 
 }
 .contato-enviar input:hover {
@@ -159,8 +158,19 @@
        
     
     }
+   
+    .contato-input{
+
+        width: 90vw;
+        
+     
     
-    
+    }
+    .contato-input-mensagem {
+        width: 90vw;
+        
+      
+    }
 }
 
 
