@@ -1,5 +1,5 @@
 .servicos {
-    width: inherit;
+    width: 100vw;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -77,5 +77,15 @@
         margin-top: -10px;
         margin-bottom: 10px;
     }
+    .servicos-item {
+      
     
+        margin-right: 0;
+       
+    
+}
+.servicos {
+    text-align: center;
+}
+
 }
