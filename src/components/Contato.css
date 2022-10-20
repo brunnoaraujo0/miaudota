@@ -1,0 +1,166 @@
+.contact {
+    width: inherit;
+    height: 70vh;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.contact h1 {
+    color: #371669;
+    font: 800 3rem 'Poppins', sans-serif; 
+    letter-spacing: -3px;
+    margin-bottom: -10px;
+}
+.contact-dados {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    
+}
+.contato-nome {
+    width: 50%;
+  
+    height: 100%;
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contato-mensagem {
+    width: 50%;
+   
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+.contato-mensagem h3 {
+    color: #371669;
+    font: 600 1.2rem 'Poppins', sans-serif;
+}
+.contato-nome h3 {
+    color: #371669;
+    font: 600 1.2rem 'Poppins', sans-serif;
+}
+.contato-input{
+
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ffa840;
+    border: solid 2px #371669;
+    margin-top: -14px;
+    color: #371669;
+    font: 600 0.9rem 'Poppins', sans-serif;
+    padding-right: 4px;
+ 
+
+}
+.contato-input-mensagem {
+    width: 450px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: #ffa840;
+    border: solid 2px #371669;
+    margin-top: -14px;
+    color: #371669;
+    font: 600 0.9rem 'Poppins', sans-serif;
+    padding-right: 4px;
+  
+}
+.contato-enviar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contato-enviar input {
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: wheat;
+    border: solid 2px #371669;
+    margin-top: -14px;
+    color: #371669;
+    border: solid 2px #371669;
+    font: 800 1.5rem 'Poppins', sans-serif;
+    transition: all ease 0.2s;
+    cursor: pointer;
+
+}
+.contato-enviar input:hover {
+    background-color: #371669;
+    color: #ffa840;
+}
+@media (max-width: 1200px) { 
+    .contato-nome {
+        width: 100%;
+      
+        align-items: center;
+        padding-left: 10vw;
+      
+        
+    }
+
+}
+@media (max-width: 1200px) {
+    .contact {
+        width: inherit;
+        height: 120vh;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-dados {
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact h1 {
+        color: #371669;
+        font: 800 3rem 'Poppins', sans-serif; 
+        letter-spacing: -3px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }
+    .contato-nome {
+        width: 100%;
+      
+        align-items: center;
+        padding-left: 0px;
+      
+        
+    }
+    .contato-mensagem {
+        width: 100%;
+       
+        height: 100%;
+        display: flex;
+        padding-left: 0px;
+        align-items: center;
+       
+       
+    }
+    .contato-enviar {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+    
+    }
+    
+    
+}
+
+

@@ -1,0 +1,81 @@
+.servicos {
+    width: inherit;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.servicos h1 {
+    font: 800 3rem 'Poppins', sans-serif;
+    letter-spacing: -1px;
+    color:  wheat;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    
+}
+
+.servicos-geral {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.servicos-item {
+    width: 350px;
+    height: 100%;
+
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.servicos-item h1  {
+    font: 800 2.5rem 'Poppins', sans-serif;
+    letter-spacing: -1px;
+    color:  #FFA840;
+    margin-top: -5px;
+}
+.item {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: solid 4px wheat;
+    transition: all ease 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item:hover {
+    background-color: #FFA840;
+}
+.item img {
+    width: 100%; /*o tamanho vai 100% de 150 */
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+}
+.item img:hover {
+    transform: scale(1); /* quando passar o mouse a imagem vai de 0.9* 100% para 1*100%*/
+}
+
+@media (max-width: 800px) {
+    .servicos {
+        width: inherit;
+        height: 190vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .servicos-geral {
+        align-items: center;
+        flex-direction: column;
+    }
+    .servicos .h1 {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    
+}

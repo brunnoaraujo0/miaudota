@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+.header {
+background-color: #F3EEE8;
+width: 100%;
+height: 100px;
+padding-right: 75px;
+padding-left: 75px;
+display: flex;
+position: fixed;
+top: 0;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.header-logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.header-menu {
+    width: 80%;
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+    height: 100%;
+}
+.header-logo img {
+    width: 150px;
+}
+
+.header-menu a {
+    font: 800 0.8rem 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color:  #FFA840;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.header-menu a:hover{
+    color: #4E2096;
+    
+}
+
+.provisorio {
+    display: none;
+}
+.opcoes {
+    visibility: hidden;
+}
+.Hamburguer-menu {
+    
+    visibility: hidden;
+}
+@media (min-width: 1200px){
+    .Hamburguer-menu{
+        position: absolute;
+    }
+}
+@media (max-width: 1200px){
+    .header-menu {
+        display: none;
+    }
+    .opcoes {
+        visibility: visible;
+        width: 100vw;
+        height: 60vh;
+        background-color: #F3EEE8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all ease 0.3s;
+    }
+    .Hamburguer-menu button{
+        width: 50px;
+        display: visible;
+        transition: all ease 0.3s;
+        border: none;
+        background-color: none;
+        cursor: pointer;
+        visibility: visible;
+        
+    }
+    button img {
+    width: 100%;
+    }
+    .opcoes button{
+        width: 50px;
+        display: visible;
+        border: none;
+        background-color: #F3EEE8;
+        cursor: pointer;
+    }
+    .opcoes .botao {
+        width: 100%;
+        height: 20%;
+       
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 30px;
+        display: flex;
+    }
+    .opcoes .lista {
+        width: 100%;
+        height: 80%;
+      
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .opcoes .lista a {
+        font: 800 2rem 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #FFA840;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+    }
+
+    .opcoes .lista a:hover {
+        
+        color:  #4E2096;
+    }
+
+    button img {
+    width: 100%;
+    }
+}
